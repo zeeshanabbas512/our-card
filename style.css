@@ -1,0 +1,101 @@
+
+*{
+    padding:  0% auto;
+    margin:  0% auto;
+}
+
+.nav {
+  display: flex;
+  text-decoration: none;
+  /* justify-content: end; */
+  list-style: none;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+}
+
+.hi {
+  color: rgb(242, 0, 0);
+  border-bottom: 3px solid blue;
+  text-align: center;
+  background-color: bisque;
+}
+.nav li {
+  cursor: pointer;
+  /* margin-left:  20px; */
+}
+
+.abutsection {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+.div1 {
+  border: 2px solid green;
+  padding: 20px;
+  width: 50%;
+  margin: 12px;
+  height: 130px;
+  color:black;
+
+}
+
+/*  card styling */
+
+.section2{
+    background-color: rgba(0, 0, 255, 0.204);
+    padding: 20px ;
+}
+.parentsofcards{
+    display: flex   ;
+    width: 90%;
+}
+
+.cardss{
+    border:  2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18px;
+    padding: 12px;
+
+}
+
+.cardss h3{
+    color: red;
+    padding: 12px;
+}.cardss p{
+    color: rgb(29, 28, 28);
+letter-spacing:1px;
+line-height: 21px;
+    font-size: 15px;
+    padding: 12px;
+}
+.heading{
+    text-align: center;
+    padding: 50px;
+
+}
+
+.cardss button{
+    cursor: pointer;
+    background-color: blue;
+    padding: 9px 22px;
+    border: none;
+    color: white;
+    outline: none;
+}.cardss button:hover{
+    background-color: rgb(20, 20, 89);
+    
+}
+
+.cardss hr{
+    padding: 1px;
+    background-color: rgb(102, 255, 0);
+}
+.cardss img{
+    width: 100%;
+}
+.btn{
+    margin-left: 100px;
+    border-radius: 6px;
+}
